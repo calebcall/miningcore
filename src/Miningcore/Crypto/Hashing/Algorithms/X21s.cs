@@ -34,7 +34,7 @@ namespace Miningcore.Crypto.Hashing.Algorithms
             {
                 fixed (byte* output = result)
                 {
-                    LibMultihash.X21S(input, output, (uint) data.Length);
+                    LibMultihash.x21s(input, output, (uint) data.Length);
                 }
             }
         }
