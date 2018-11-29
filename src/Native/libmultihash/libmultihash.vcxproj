@@ -258,6 +258,7 @@
     <ClInclude Include="x16s.h" />
     <ClInclude Include="x17.h" />
     <ClInclude Include="x22i.h" />
+    <ClInclude Include="x21s.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bcrypt.c" />
@@ -340,6 +341,7 @@
     <ClCompile Include="x16s.c" />
     <ClCompile Include="x17.c" />
     <ClCompile Include="x22i.c" />
+    <ClCompile Include="x21s.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="equi\crypto\equihash.tcc" />
