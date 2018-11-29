@@ -21,7 +21,7 @@
 #include "sha3/sph_sha2.h"
 #include "sha3/sph_haval.h"
 #include "sha3/sph_tiger.h"
-#include "sha3/lyra2.h"
+#include "Lyra2.h"
 #include "sha3/gost_streebog.h"
 
 enum Algo {
