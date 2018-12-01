@@ -15,7 +15,7 @@ namespace Miningcore.Crypto.Hashing.Algorithms
             {
                 fixed (byte* output = result)
                 {
-                    LibMultihash.lyra2z(input, output);
+                    LibMultihash.lyra2z(input, output); 
                 }
             }
         }
