@@ -210,7 +210,7 @@ extern "C" MODULE_API void lyra2rev2_export(const char* input, char* output)
 
 extern "C" MODULE_API void lyra2z_export(const char* input, char* output)
 {
-	lyra2z(input, output);
+	lyra2z_hash(input, output);
 }
 
 extern "C" MODULE_API void x16r_export(const char* input, char* output, uint32_t input_len)
